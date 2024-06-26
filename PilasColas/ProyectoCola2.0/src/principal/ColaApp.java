@@ -19,9 +19,9 @@ public class ColaApp {
         int ban;
         do {
 
-            System.out.println("1) ..Agregar elementos a la Cola");
+            System.out.println("1) Agregar elementos a la Cola");
             System.out.println("2) Eliminar elementos de la Cola");
-            System.out.println("3) .Mostrar elementos de la Cola");
+            System.out.println("3) Mostrar elementos de la Cola");
             System.out.println("4) Fin de Programa");
             System.out.println("Opcion: ");
             opcion = entrada.nextInt();
