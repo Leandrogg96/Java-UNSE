@@ -14,7 +14,7 @@ public class EntradaSalida {
             try {
                 return Integer.parseInt(leerDato());
             } catch (NumberFormatException e) {
-                EntradaSalida.mostrarMensaje("No es un integer. Por favor, pruebe otra vez!");
+                mostrarMensaje("No es un integer. Por favor, pruebe otra vez!");
             }
         }
     }
@@ -23,7 +23,7 @@ public class EntradaSalida {
      * Muestra un Integer
      */
     public static void mostrarEntero(String mensaje, Integer valor){
-        EntradaSalida.mostrarMensaje(mensaje + valor);
+        mostrarMensaje(mensaje + valor);
     }
 
     /**
@@ -76,7 +76,7 @@ public class EntradaSalida {
                 }
                 // return Integer.parseInt(leerString().trim());
             } catch (NumberFormatException e) {
-                EntradaSalida.mostrarMensaje("No es un entero. Por favor, pruebe otra vez!");
+                mostrarMensaje("No es un entero. Por favor, pruebe otra vez!");
                 entra.nextLine();
             }
         }
